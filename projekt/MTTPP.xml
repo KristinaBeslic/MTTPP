@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "MTTPP">
+<test name = "Register">
+    <classes>
+        <class name = "com.example.MTTPP.Register"/>
+    </classes>
+</test>
+<test name = "AddToCart">
+    <classes>
+        <class name = "com.example.MTTPP.AddToCart"/>
+    </classes>
+</test>
+<test name = "DeleteFromCart">
+    <classes>
+        <class name = "com.example.MTTPP.DeleteFromCart"/>
+    </classes>
+</test>
+<test name = "ProductComparison">
+    <classes>
+        <class name = "com.example.MTTPP.ProductComparison"/>
+    </classes>
+</test>
+<test name = "Login">
+    <classes>
+        <class name = "com.example.MTTPP.Login"/>
+    </classes>
+</test>
+</suite>
