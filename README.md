@@ -16,7 +16,7 @@ IntelliJ IDEA je integrirano razvojno okruženje koje je u ovom projektu korišt
 Testiranje je moguće tek nakon preuzimanja svih navedenih alata (IntelliJ, Java JDK i Chrome Driver-a).
 
 ### Testni slučajevi
-U ovom projektu napravljeno je 5 testnih slučajeva:
+U ovom projektu napravljeno je 5 testnih slučajeva koji se nalaze u [mapi](https://github.com/KristinaBeslic/MTTPP/tree/main/projekt/src/test/java/com/example/MTTPP):
 * Register
 * Login
 * Add to cart
