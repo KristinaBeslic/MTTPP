@@ -23,7 +23,9 @@ U ovom projektu napravljeno je 5 testnih slučajeva koji se nalaze u [mapi](http
 * Delete from cart
 * Product comparison
 
-Kako bi testovi radili ispravno, testni slučaj za registriranje korisnika potrebno je izvršiti prvi ili drugi (drugi u slučaju ako se prvo izvršava testni slučaj za usporedbu proizvoda (_Product comparison_)). Testni slučaj za usporedbu proizvoda ne zahtijeva da korisnik bude registriran, zato ga je moguće izvesti i prije registracije korisnika. Kako bi testni slučaj za brisanje proizvoda iz košarice (_Delete from cart_) radio ispravno, prvo je potrebno izvršiti testni slučaj dodavanja proizvoda u košaricu (_Add to cart_), budući da se proizvodi u košarici gledaju kao lista iz koje se u testnom slučaju brisanja proizvoda briše prvi proizvod iz liste, a drugom proizvodu je vrijednost promijenjena na 1. 
+Kako bi testovi izveli ispravno, testni slučaj za registriranje korisnika potrebno je izvršiti prvi ili drugi (drugi u slučaju ako se prvo izvršava testni slučaj za usporedbu proizvoda (_Product comparison_)). Testni slučaj za usporedbu proizvoda ne zahtijeva da korisnik bude registriran, zato ga je moguće izvesti i prije registracije korisnika. Kako bi testni slučaj za brisanje proizvoda iz košarice (_Delete from cart_) radio ispravno, prvo je potrebno izvršiti testni slučaj dodavanja proizvoda u košaricu (_Add to cart_), budući da se proizvodi u košarici gledaju kao lista iz koje se u testnom slučaju brisanja proizvoda briše prvi proizvod iz liste, a drugom proizvodu je vrijednost promijenjena na 1.
+
+Također, kako je korisnik s e-mail adresom martin123@gmail.com korišten u tesnom slučaju registracije, on je već registriran te testni slučaj neće proći, stoga se treba izmijeniti e-mail adresa.
 
 ### Autor projekta
 Projekt je izradila Kristina Bešlić, studentica 1. godine diplomskog studija Računarstva u Osijeku
